@@ -28,8 +28,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve",
-    "build": "webpack --mode production"
+    "start": "webpack serven --config webpack.config.dev.js",
+    "build": "webpack --mode webpack.config.js"
   },
   "repository": {
     "type": "git",
